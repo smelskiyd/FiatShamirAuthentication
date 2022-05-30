@@ -8,17 +8,19 @@
 #include <map>
 #include <optional>
 
+#include "big_integer.h"
+
 class CentralAuthority {
   public:
     CentralAuthority();
 
-    std::optional<long long> getUserPublicKey(const std::string& user_id) const;
+    std::optional<BigInteger> getUserPublicKey(const std::string& user_id) const;
 
-    long long getModule() const;
+    const BigInteger& getModule() const;
 
-    void registerUser(const std::string& user_id, long long public_key);
+    void registerUser(const std::string& user_id, const BigInteger& public_key);
 
   private:
-    long long n_;
-    std::map<std::string, long long> key_by_user_id_;
+    BigInteger n_;
+    std::map<std::string, BigInteger> key_by_user_id_;
 };

@@ -6,14 +6,16 @@
 
 #include <iostream>
 
+#include "crypto_algorithms.h"
+
 CentralAuthority::CentralAuthority() {
-    long long p = 13;
-    long long q = 19;
+    BigInteger p = Crypto::GetRandomPrimeNumbersWithSomeBitness(32)[0];
+    BigInteger q = Crypto::GetRandomPrimeNumbersWithSomeBitness(32)[0];
 
     n_ = p * q;
 }
 
-std::optional<long long> CentralAuthority::getUserPublicKey(const std::string& user_id) const {
+std::optional<BigInteger> CentralAuthority::getUserPublicKey(const std::string& user_id) const {
     const auto& user_it = key_by_user_id_.find(user_id);
 
     if (user_it == key_by_user_id_.end()) {
@@ -23,11 +25,11 @@ std::optional<long long> CentralAuthority::getUserPublicKey(const std::string& u
     return user_it->second;
 }
 
-long long CentralAuthority::getModule() const {
+const BigInteger& CentralAuthority::getModule() const {
     return n_;
 }
 
-void CentralAuthority::registerUser(const std::string& user_id, long long public_key) {
+void CentralAuthority::registerUser(const std::string& user_id, const BigInteger& public_key) {
     if (key_by_user_id_.find(user_id) == key_by_user_id_.end()) {
         std::cout << "New user '" << user_id << "' with public key '"
                   << public_key << "' was registered." << std::endl;

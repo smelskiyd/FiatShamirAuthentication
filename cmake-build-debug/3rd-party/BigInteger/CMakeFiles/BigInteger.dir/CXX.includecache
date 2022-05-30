@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../3rd-party/BigInteger/include/ElGamal.h
+big_integer.h
+../3rd-party/BigInteger/include/big_integer.h
+crypto_algorithms.h
+../3rd-party/BigInteger/include/crypto_algorithms.h
+
 ../3rd-party/BigInteger/include/big_integer.h
 string
 -
@@ -27,6 +33,40 @@ big_integer.h
 ../3rd-party/BigInteger/include/rsa.h
 big_integer.h
 ../3rd-party/BigInteger/include/big_integer.h
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/ElGamal.cpp
+ElGamal.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/ElGamal.h
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/big_integer.cpp
+big_integer.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/big_integer.h
+utility
+-
+algorithm
+-
+cassert
+-
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/chinese_remainder_theorem.cpp
+chinese_remainder_theorem.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/chinese_remainder_theorem.h
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/crypto_algorithms.cpp
+map
+-
+algorithm
+-
+cassert
+-
+chrono
+-
+random
+-
+sys/time.h
+-
+crypto_algorithms.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/crypto_algorithms.h
 
 /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/rsa.cpp
 cassert

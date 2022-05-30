@@ -8,9 +8,13 @@
 #include "CentralAuthority.h"
 #include "User.h"
 
+#include "crypto_algorithms.h"
+
+
 const char* kAliceUserId = "Alice";
 
 constexpr uint32_t kNumberOfTests = 30;
+
 
 bool VerifyUser(const CentralAuthority& ca, User& user, const std::string user_id) {
     const auto& user_public_key = ca.getUserPublicKey(user_id);
@@ -21,7 +25,7 @@ bool VerifyUser(const CentralAuthority& ca, User& user, const std::string user_i
     }
 
     for (uint32_t i = 0; i < kNumberOfTests; ++i) {
-        long long x = user.initAuthentication();
+        BigInteger x = user.initAuthentication();
 
         bool e = (rand() & 1);
         const auto& y = user.processChallenge(e);
@@ -30,8 +34,8 @@ bool VerifyUser(const CentralAuthority& ca, User& user, const std::string user_i
             return false;
         }
 
-        long long expected_value = e ? (x * user_public_key.value()) % ca.getModule()
-                                     : x;
+        BigInteger expected_value = e ? (x * user_public_key.value()) % ca.getModule()
+                                      : x;
 
         if (expected_value != (y.value() * y.value()) % ca.getModule()) {
             return false;
@@ -44,9 +48,11 @@ bool VerifyUser(const CentralAuthority& ca, User& user, const std::string user_i
 }
 
 int main() {
+    Crypto::RandomSeedInitialization();
+
     CentralAuthority ca;
 
-    printf("Module N = %lld\n", ca.getModule());
+    printf("Module N = %s\n", ca.getModule().ToString().c_str());
 
     User alice(kAliceUserId, ca.getModule());
     ca.registerUser(kAliceUserId, alice.getPublicKey());

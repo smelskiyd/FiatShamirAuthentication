@@ -7,25 +7,27 @@
 #include <string>
 #include <optional>
 
+#include "big_integer.h"
+
 class User {
   public:
-    User(const std::string& user_id, const long long& n);
+    User(const std::string& user_id, const BigInteger& n);
 
-    const long long& getPublicKey() const;
+    const BigInteger& getPublicKey() const;
 
     const std::string& getUserId() const;
 
-    long long initAuthentication();
+    BigInteger initAuthentication();
 
-    std::optional<long long> processChallenge(bool e);
+    std::optional<BigInteger> processChallenge(bool e);
 
   private:
-    long long n_;
+    BigInteger n_;
 
     std::string user_id_;
-    long long public_key_;
-    long long private_key_;
+    BigInteger public_key_;
+    BigInteger private_key_;
 
     // Authentication
-    std::optional<long long> r_;
+    std::optional<BigInteger> r_;
 };
