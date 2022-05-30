@@ -5,6 +5,7 @@
 #pragma once
 
 #include <string>
+#include <optional>
 
 class User {
   public:
@@ -14,10 +15,17 @@ class User {
 
     const std::string& getUserId() const;
 
+    long long initAuthentication();
+
+    std::optional<long long> processChallenge(bool e);
+
   private:
     long long n_;
 
     std::string user_id_;
     long long public_key_;
     long long private_key_;
+
+    // Authentication
+    std::optional<long long> r_;
 };

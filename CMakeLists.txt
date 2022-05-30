@@ -7,7 +7,6 @@ add_subdirectory(3rd-party)
 
 set(SRC
         Parties/User.cpp
-        Parties/Utils.cpp
         Parties/CentralAuthority.cpp)
 
 add_executable(FiatShamirAuthentication main.cpp ${SRC})
