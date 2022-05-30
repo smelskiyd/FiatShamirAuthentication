@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties -I/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInt/src
+CXX_INCLUDES = -I/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties -I/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/include
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
 

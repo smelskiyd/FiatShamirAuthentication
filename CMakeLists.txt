@@ -11,5 +11,5 @@ set(SRC
 
 add_executable(FiatShamirAuthentication main.cpp ${SRC})
 
-target_link_libraries(FiatShamirAuthentication PRIVATE Dodecahedron_Bigint)
+target_link_libraries(FiatShamirAuthentication PRIVATE BigInteger)
 target_include_directories(FiatShamirAuthentication PRIVATE Parties)

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInt
+# Install script for directory: /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../3rd-party/BigInteger/include/big_integer.h
+string
+-
+vector
+-
+iostream
+-
+
+../3rd-party/BigInteger/include/chinese_remainder_theorem.h
+big_integer.h
+../3rd-party/BigInteger/include/big_integer.h
+vector
+-
+
+../3rd-party/BigInteger/include/crypto_algorithms.h
+big_integer.h
+../3rd-party/BigInteger/include/big_integer.h
+
+../3rd-party/BigInteger/include/rsa.h
+big_integer.h
+../3rd-party/BigInteger/include/big_integer.h
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/rsa.cpp
+cassert
+-
+crypto_algorithms.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/crypto_algorithms.h
+chinese_remainder_theorem.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/chinese_remainder_theorem.h
+rsa.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInteger/src/rsa.h
+

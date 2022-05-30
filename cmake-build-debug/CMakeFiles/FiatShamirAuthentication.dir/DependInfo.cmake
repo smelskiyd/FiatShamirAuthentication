@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o"
   "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o"
-  "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o"
   "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/main.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
@@ -18,7 +17,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Parties"
-  "../3rd-party/BigInt/src"
+  "../3rd-party/BigInteger/include"
   )
 
 # The set of dependency files which are needed:
@@ -27,7 +26,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/BigInt/CMakeFiles/Dodecahedron_Bigint.dir/DependInfo.cmake"
+  "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/BigInteger/CMakeFiles/BigInteger.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

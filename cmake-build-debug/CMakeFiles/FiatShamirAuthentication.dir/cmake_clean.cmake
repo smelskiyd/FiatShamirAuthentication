@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o"
   "CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o"
-  "CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o"
   "CMakeFiles/FiatShamirAuthentication.dir/main.cpp.o"
   "FiatShamirAuthentication"
   "FiatShamirAuthentication.pdb"

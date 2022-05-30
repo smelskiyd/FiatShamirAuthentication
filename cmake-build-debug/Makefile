@@ -130,17 +130,17 @@ FiatShamirAuthentication/fast:
 .PHONY : FiatShamirAuthentication/fast
 
 #=============================================================================
-# Target rules for targets named Dodecahedron_Bigint
+# Target rules for targets named BigInteger
 
 # Build rule for target.
-Dodecahedron_Bigint: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dodecahedron_Bigint
-.PHONY : Dodecahedron_Bigint
+BigInteger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BigInteger
+.PHONY : BigInteger
 
 # fast build rule for target.
-Dodecahedron_Bigint/fast:
-	$(MAKE) $(MAKESILENT) -f 3rd-party/BigInt/CMakeFiles/Dodecahedron_Bigint.dir/build.make 3rd-party/BigInt/CMakeFiles/Dodecahedron_Bigint.dir/build
-.PHONY : Dodecahedron_Bigint/fast
+BigInteger/fast:
+	$(MAKE) $(MAKESILENT) -f 3rd-party/BigInteger/CMakeFiles/BigInteger.dir/build.make 3rd-party/BigInteger/CMakeFiles/BigInteger.dir/build
+.PHONY : BigInteger/fast
 
 Parties/CentralAuthority.o: Parties/CentralAuthority.cpp.o
 .PHONY : Parties/CentralAuthority.o
@@ -190,30 +190,6 @@ Parties/User.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.s
 .PHONY : Parties/User.cpp.s
 
-Parties/Utils.o: Parties/Utils.cpp.o
-.PHONY : Parties/Utils.o
-
-# target to build an object file
-Parties/Utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o
-.PHONY : Parties/Utils.cpp.o
-
-Parties/Utils.i: Parties/Utils.cpp.i
-.PHONY : Parties/Utils.i
-
-# target to preprocess a source file
-Parties/Utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.i
-.PHONY : Parties/Utils.cpp.i
-
-Parties/Utils.s: Parties/Utils.cpp.s
-.PHONY : Parties/Utils.s
-
-# target to generate assembly for a file
-Parties/Utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.s
-.PHONY : Parties/Utils.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -246,7 +222,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Dodecahedron_Bigint"
+	@echo "... BigInteger"
 	@echo "... FiatShamirAuthentication"
 	@echo "... Parties/CentralAuthority.o"
 	@echo "... Parties/CentralAuthority.i"
@@ -254,9 +230,6 @@ help:
 	@echo "... Parties/User.o"
 	@echo "... Parties/User.i"
 	@echo "... Parties/User.s"
-	@echo "... Parties/Utils.o"
-	@echo "... Parties/Utils.i"
-	@echo "... Parties/Utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

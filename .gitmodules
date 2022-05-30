@@ -1,3 +1,0 @@
-[submodule "3rd-party/BigInt"]
-	path = 3rd-party/BigInt
-	url = git@github.com:kasparsklavins/bigint.git
