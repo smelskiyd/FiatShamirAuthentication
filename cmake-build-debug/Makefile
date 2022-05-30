@@ -166,6 +166,54 @@ Parties/CentralAuthority.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.s
 .PHONY : Parties/CentralAuthority.cpp.s
 
+Parties/User.o: Parties/User.cpp.o
+.PHONY : Parties/User.o
+
+# target to build an object file
+Parties/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o
+.PHONY : Parties/User.cpp.o
+
+Parties/User.i: Parties/User.cpp.i
+.PHONY : Parties/User.i
+
+# target to preprocess a source file
+Parties/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.i
+.PHONY : Parties/User.cpp.i
+
+Parties/User.s: Parties/User.cpp.s
+.PHONY : Parties/User.s
+
+# target to generate assembly for a file
+Parties/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.s
+.PHONY : Parties/User.cpp.s
+
+Parties/Utils.o: Parties/Utils.cpp.o
+.PHONY : Parties/Utils.o
+
+# target to build an object file
+Parties/Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o
+.PHONY : Parties/Utils.cpp.o
+
+Parties/Utils.i: Parties/Utils.cpp.i
+.PHONY : Parties/Utils.i
+
+# target to preprocess a source file
+Parties/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.i
+.PHONY : Parties/Utils.cpp.i
+
+Parties/Utils.s: Parties/Utils.cpp.s
+.PHONY : Parties/Utils.s
+
+# target to generate assembly for a file
+Parties/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.s
+.PHONY : Parties/Utils.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -203,6 +251,12 @@ help:
 	@echo "... Parties/CentralAuthority.o"
 	@echo "... Parties/CentralAuthority.i"
 	@echo "... Parties/CentralAuthority.s"
+	@echo "... Parties/User.o"
+	@echo "... Parties/User.i"
+	@echo "... Parties/User.s"
+	@echo "... Parties/Utils.o"
+	@echo "... Parties/Utils.i"
+	@echo "... Parties/Utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

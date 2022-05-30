@@ -6,43 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../3rd-party/BigInt/src/bigint.h
-vector
--
-iostream
--
-map
--
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp
+User.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.h
 
-../Parties/CentralAuthority.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.h
 string
 -
-map
--
-optional
--
-bigint.h
-../Parties/bigint.h
-
-/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.cpp
-CentralAuthority.h
-/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.h
-iostream
--
-
-/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.h
-string
--
-map
--
-optional
--
-bigint.h
-/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/bigint.h
-
-/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/main.cpp
-iostream
--
-CentralAuthority.h
-/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/CentralAuthority.h
 

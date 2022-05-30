@@ -140,6 +140,18 @@
 		<Unit filename="/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.h">
 			<Option target="FiatShamirAuthentication"/>
 		</Unit>
+		<Unit filename="/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp">
+			<Option target="FiatShamirAuthentication"/>
+		</Unit>
+		<Unit filename="/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.h">
+			<Option target="FiatShamirAuthentication"/>
+		</Unit>
+		<Unit filename="/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.cpp">
+			<Option target="FiatShamirAuthentication"/>
+		</Unit>
+		<Unit filename="/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.h">
+			<Option target="FiatShamirAuthentication"/>
+		</Unit>
 		<Unit filename="/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/main.cpp">
 			<Option target="FiatShamirAuthentication"/>
 		</Unit>

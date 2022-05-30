@@ -79,9 +79,35 @@ CMakeFiles/FiatShamirAuthentication.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FiatShamirAuthentication.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/main.cpp -o CMakeFiles/FiatShamirAuthentication.dir/main.cpp.s
 
+CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o: CMakeFiles/FiatShamirAuthentication.dir/flags.make
+CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o: ../Parties/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o -c /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp
+
+CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp > CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.i
+
+CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp -o CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.s
+
+CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o: CMakeFiles/FiatShamirAuthentication.dir/flags.make
+CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o: ../Parties/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o -c /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.cpp
+
+CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.cpp > CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.i
+
+CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.cpp -o CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.s
+
 CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o: CMakeFiles/FiatShamirAuthentication.dir/flags.make
 CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o: ../Parties/CentralAuthority.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o -c /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.cpp
 
 CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.i: cmake_force
@@ -95,17 +121,21 @@ CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.s: cmake_fo
 # Object files for target FiatShamirAuthentication
 FiatShamirAuthentication_OBJECTS = \
 "CMakeFiles/FiatShamirAuthentication.dir/main.cpp.o" \
+"CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o" \
+"CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o" \
 "CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o"
 
 # External object files for target FiatShamirAuthentication
 FiatShamirAuthentication_EXTERNAL_OBJECTS =
 
 FiatShamirAuthentication: CMakeFiles/FiatShamirAuthentication.dir/main.cpp.o
+FiatShamirAuthentication: CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o
+FiatShamirAuthentication: CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o
 FiatShamirAuthentication: CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o
 FiatShamirAuthentication: CMakeFiles/FiatShamirAuthentication.dir/build.make
 FiatShamirAuthentication: 3rd-party/BigInt/libDodecahedron_Bigint.a
 FiatShamirAuthentication: CMakeFiles/FiatShamirAuthentication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FiatShamirAuthentication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FiatShamirAuthentication"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FiatShamirAuthentication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

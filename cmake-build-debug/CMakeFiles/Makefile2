@@ -113,12 +113,12 @@ clean: 3rd-party/clean
 CMakeFiles/FiatShamirAuthentication.dir/all: 3rd-party/BigInt/CMakeFiles/Dodecahedron_Bigint.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FiatShamirAuthentication.dir/build.make CMakeFiles/FiatShamirAuthentication.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target FiatShamirAuthentication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target FiatShamirAuthentication"
 .PHONY : CMakeFiles/FiatShamirAuthentication.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FiatShamirAuthentication.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FiatShamirAuthentication.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/FiatShamirAuthentication.dir/rule

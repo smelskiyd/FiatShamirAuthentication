@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/CentralAuthority.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/Parties/CentralAuthority.cpp.o"
+  "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/User.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/Parties/User.cpp.o"
+  "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/Parties/Utils.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/Parties/Utils.cpp.o"
   "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/main.cpp" "/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
