@@ -1,0 +1,8 @@
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/CMakeFiles/FiatShamirAuthentication.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/CMakeFiles/rebuild_cache.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/CMakeFiles/edit_cache.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/BigInt/CMakeFiles/rebuild_cache.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/BigInt/CMakeFiles/edit_cache.dir
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/cmake-build-debug/3rd-party/BigInt/CMakeFiles/Dodecahedron_Bigint.dir

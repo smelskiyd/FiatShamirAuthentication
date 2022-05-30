@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInt/src/bigint.cpp
+string
+-
+sstream
+-
+map
+-
+bigint.h
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInt/src/bigint.h
+
+/Users/smelskiyd/CLionProjects/FiatShamirAuthentication/FiatShamirAuthentication/3rd-party/BigInt/src/bigint.h
+vector
+-
+iostream
+-
+map
+-
+
