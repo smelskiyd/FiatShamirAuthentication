@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libBigInteger.a CMakeFiles/BigInteger.dir/src/big_integer.cpp.o CMakeFiles/BigInteger.dir/src/chinese_remainder_theorem.cpp.o CMakeFiles/BigInteger.dir/src/crypto_algorithms.cpp.o CMakeFiles/BigInteger.dir/src/ElGamal.cpp.o CMakeFiles/BigInteger.dir/src/rsa.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libBigInteger.a
